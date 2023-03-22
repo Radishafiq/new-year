@@ -30,10 +30,79 @@ h1{
 .about-section{
     display: flex;
     align-items: center;
-    margin: 0 200px;
+    margin: 50px 200px;
     gap: 20px;
 }
 .checkbox{
     color: rgb(87, 209, 87);
     gap: 5px;
+    padding: 5px;
+}
+
+.web{
+    margin: 0 200px;
+    align-items: center;
+}
+.skill-hero{
+    text-align: center;
+    margin: 50px 0;
+}
+.skill{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    margin: 20px 0;
+}
+.skill-title{
+    padding-top: 40px;
+    text-align: center;
+}
+.call-sec{
+    background-image: url(images/watch.png), url(images/gradient2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 60px 200px;
+    border-radius: 5px;
+    height: 300px;
+    background-size: cover;
+    align-items: center; 
+    background-blend-mode: overlay;
+    
+}
+.call-btn{
+    padding-top: 60px;
+    padding-left: 20px;
+    color: white;
+    width: 50%;
+}
+.call-sec .contact-btn{
+    background-color: white;
+    color: orange;
+}
+.call-text{
+    font-size: 30px;
+}
+
+.footer{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.subscribe input{
+    background-color: black;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid white;
+}
+h3{
+    margin-bottom: 20px;
+}
+.subscribe button{
+    padding: 10px 30px;
+    color: orange;
+    border-radius: 5px;
 }
